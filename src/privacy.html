@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}}">
+    {{> loader}} {{> header}}
+    <main>
+      <section class="pageSection topMainOff noPaddBottom" data-inView>
+        <div class="container">
+          <div class="gridWrap">
+            <div class="imgBox">
+              <picture>
+                <source
+                  srcset="./assets/images/privacybanner.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./assets/images/privacybanner.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/privacybanner.jpg"
+                  loading="lazy"
+                  alt=""
+                  width="450"
+                  height="500"
+                />
+              </picture>
+            </div>
+            <div class="contentBox">
+              <div class="sectionTitle">
+                <h2>
+                  <span>Privacy and Social Media at </span>
+                  <span>the Sir Bani Yas Forum</span>
+                </h2>
+              </div>
+
+              <div class="textBox fin_anim d1">
+                <p>
+                  The Sir Bani Yas Forum is convened under the ‘Chatham House
+                  Rule’ of non-attribution and held in a strictly confidential
+                  setting. Therefore, participants are free to use any
+                  information received throughout the Forum, but neither the
+                  identity or affiliation of the speaker(s), that of any other
+                  participant, may be revealed.
+                </p>
+                <p>
+                  The Forum believes it is essential that all participants and
+                  speakers are able to speak frankly and openly on the issues
+                  currently facing the Middle East in a strictly confidential
+                  environment. Through the implementation of the Chatham House
+                  Rule, the Forum seeks to encourage participants to engage in
+                  an environment of openness and trust.
+                </p>
+                <p>
+                  Twitter and other social media platforms can be used by
+                  participants during and after the Sir Bani Yas Forum, but only
+                  in accordance with the Chatham House rules guiding the event.
+                </p>
+                <p>
+                  Photos taken at the event should not include speakers or
+                  participants without their explicit permission and knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}} {{> scripts}}
+    <script type="module" src="/assets/js/innerpage.js"></script>
+  </body>
+</html>

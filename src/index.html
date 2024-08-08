@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}}">
+    {{> loader}} {{> header}}
+    <main>
+      <section class="homeBanner" data-inView>
+        <div class="container">
+          <div class="imgBox">
+            <picture>
+              <source
+                srcset="./assets/images/homeBanner.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="./assets/images/homeBanner.jpg"
+                type="image/jpeg"
+              />
+              <img
+                src="./assets/images/homeBanner.jpg"
+                loading="lazy"
+                alt=""
+                width="500"
+                height="800"
+              />
+            </picture>
+          </div>
+          <div class="contentBox">
+            <div class="sectionTitle">
+              <h2>
+                <span>About the Sir Bani Yas Forum</span>
+              </h2>
+            </div>
+
+            <div class="textBox fin_anim d1">
+              <p>
+                8 - 10 December 2023<br />
+                Jumeirah at Saadiyat Resort
+              </p>
+              <p>
+                The Sir Bani Yas Forum convenes invited guests to engage in
+                frank and constructive discussions about the most pressing
+                issues in the Middle East.
+              </p>
+              <p>
+                Convened annually since 2010 under the ‘Chatham House Rule’ of
+                non-attribution and held in a strictly private setting, the
+                Forum’s program blends together insights from expert panel
+                discussions and one-on-one interviews to provoke unscripted,
+                dynamic, and substantive debate on a range of complex topics.
+              </p>
+              <p>
+                The goal of the Forum is to create a private and confidential
+                environment for senior-level discussions about peace and
+                security in the Middle East. To this end, the Sir Bani Yas Forum
+                strives to positively contribute to and advance dialogue on how
+                the Middle East can evolve and adapt in a period of significant
+                change and complexity.
+              </p>
+              <p>
+                Participation at the Sir Bani Yas Forum is by invitation-only
+                and admittance is not possible without the appropriate
+                registration. There are no passes available for media to cover
+                the event as the Sir Bani Yas Forum is entirely private and
+                off-the-record.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}} {{> scripts}}
+    <script type="module" src="/assets/js/home.js"></script>
+  </body>
+</html>

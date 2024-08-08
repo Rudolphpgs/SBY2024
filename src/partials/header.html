@@ -1,0 +1,179 @@
+<header id="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logoBox">
+        <a
+          class="navbar-brand cLink"
+          href="{{rooUrl}}"
+          title="logo"
+          aria-label="logo"
+        >
+          <img
+            src="./assets/images/logo.svg"
+            class="fullLogo"
+            alt=""
+            width="139"
+            height="91"
+          />
+        </a>
+      </div>
+      <div class="centerBox">
+        <div class="nav_box_wrapper" id="master_menu">
+          <nav class="navbar-inner">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="{{ menuLink lang 'index'}}"
+                  class="nav-link  {{menuActiveClass currentUrl 'index'}}"
+                >
+                  <span>{{ textLang lang 'Home' 'الرئيسية'}} </span>
+                </a>
+              </li>
+              <!-- <li
+                class="nav-item hasSub {{menuActiveClass currentUrl 'about'}} {{menuActiveClass currentUrl 'strategicGoals'}} {{menuActiveClass currentUrl 'departmentResponsibilities'}} {{menuActiveClass currentUrl 'departmentMessage'}}{{menuActiveClass currentUrl 'protocolHistory'}}{{menuActiveClass currentUrl 'protocolActivities'}}"
+              >
+                <a
+                  href="{{ menuLink lang 'about'}}"
+                  class="nav-link {{menuActiveClass currentUrl 'about'}}"
+                >
+                  <span>{{ textLang lang 'About' 'عن الدائرة'}}</span>
+                </a>
+                <div class="arrowBox">
+                  <svg width="13.528" height="7.944" viewBox="0 0 13.528 7.944">
+                    <g transform="translate(13.528) rotate(90)">
+                      <path
+                        d="M1.331,0a1.488,1.488,0,0,1,.59.424Q4.791,3.3,7.665,6.167A.758.758,0,0,1,7.9,6.99a.884.884,0,0,1-.21.328Q4.719,10.3,1.737,13.278a.738.738,0,0,1-1.1.005c-.158-.153-.318-.306-.46-.473a.721.721,0,0,1,.014-.954c.037-.043.078-.084.118-.124L5.153,6.885a1.09,1.09,0,0,0,.151-.16.588.588,0,0,1-.138-.078Q2.717,4.2.272,1.755A.727.727,0,0,1,.158.746,2.237,2.237,0,0,1,1.041,0Z"
+                        transform="translate(0)"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <ul>
+                  <li>
+                    <a
+                      href="{{ menuLink lang 'about'}}"
+                      class="nav-link {{menuActiveClass currentUrl 'about'}}"
+                    >
+                      <span
+                        >{{ textLang lang 'Vision And Mission' 'الرؤية
+                        والرسالة'}}</span
+                      >
+                    </a>
+                  </li>
+                 
+                </ul>
+              </li> -->
+
+              <li class="nav-item">
+                <a
+                  href="{{ menuLink lang 'host'}}"
+                  class="nav-link {{menuActiveClass currentUrl 'host'}}"
+                >
+                  <span>{{ textLang lang 'Host' 'يستضيف'}}</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="{{ menuLink lang 'missionStatement'}}"
+                  class="nav-link {{menuActiveClass currentUrl 'missionStatement'}}"
+                >
+                  <span
+                    >{{ textLang lang 'Mission Statement' 'بيان المهمة'}}</span
+                  >
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="{{ menuLink lang 'advisoryBoard'}}"
+                  class="nav-link {{menuActiveClass currentUrl 'advisoryBoard'}}"
+                >
+                  <span
+                    >{{ textLang lang 'Advisory Board' 'المجلس
+                    الاستشاري'}}</span
+                  >
+                </a>
+              </li>
+
+              <!-- <li class="nav-item">
+                <a
+                  href="{{ menuLink lang 'contact'}}"
+                  class="nav-link {{menuActiveClass currentUrl 'contact'}}"
+                >
+                  <span>{{ textLang lang 'Contact' 'اتصل بنا'}}</span>
+                </a>
+              </li> -->
+            </ul>
+          </nav>
+        </div>
+
+        <div class="shortMenu">
+          <ul class="sMenu">
+            <!--   <li class="no_hide">
+              <div class="searchForm">
+                <form>
+                  <div class="inputBox">
+                    <input type="text" placeholder="Search" />
+                    <button type="submit">
+                      <svg width="20.998" height="21" viewBox="0 0 20.998 21">
+                        <path
+                          d="M14.845,16.616a9.256,9.256,0,1,1,1.723-1.709,1.318,1.318,0,0,1,.26.163q1.871,1.862,3.735,3.73a1.246,1.246,0,0,1-1.611,1.9c-.09-.074-.171-.159-.253-.241l-3.63-3.63c-.074-.074-.152-.145-.225-.215M9.255,16a6.754,6.754,0,1,0-6.76-6.759A6.734,6.734,0,0,0,9.255,16"
+                          transform="translate(0 0)"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <li class="no_hide">
+              <a href="{{ langSwitch }}" class="lang_">
+                <span>{{ textLang lang 'ع' 'En'}}</span>
+              </a>
+            </li>
+
+            <li class="no_hide">
+              <a href="#" class="m-link accBtn">
+                <svg width="47" height="47" viewBox="0 0 47 47">
+                  <path
+                    d="M27.2,11.785a4.1,4.1,0,1,1,0,5.8,4.1,4.1,0,0,1,0-5.8"
+                    transform="translate(-6.602 -2.688)"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M38.935,22.272a66.2,66.2,0,0,1-24.06,0,1.217,1.217,0,0,0-1.428.959l0,.026a1.223,1.223,0,0,0,.974,1.43l.011,0a68.6,68.6,0,0,0,8.147,1,1.954,1.954,0,0,1,1.815,2.085c0,.034-.006.067-.01.1l-.239,2.052A40.4,40.4,0,0,1,21.9,39.379L20.411,43.37a1.231,1.231,0,1,0,2.305.865l.366-.746c1.194-2.544,2.305-5.148,3.32-7.781a.552.552,0,0,1,1.03,0c1.015,2.633,2.126,5.222,3.32,7.789l.38.813a1.224,1.224,0,0,0,1.1.746,1.2,1.2,0,0,0,.425-.082,1.223,1.223,0,0,0,.755-1.557l-.009-.025L31.914,39.4a40.8,40.8,0,0,1-2.238-9.452l-.231-2.067A1.947,1.947,0,0,1,31.15,25.72l.1-.009a69.032,69.032,0,0,0,8.08-.985A1.29,1.29,0,0,0,40.4,23.481a1.232,1.232,0,0,0-1.47-1.209"
+                    transform="translate(-3.408 -5.651)"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M23.5,0A23.5,23.5,0,1,0,47,23.5,23.5,23.5,0,0,0,23.5,0m0,44.762A21.262,21.262,0,1,1,44.762,23.5,21.262,21.262,0,0,1,23.5,44.762"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </li>-->
+
+            <li class="no_hide burger_li">
+              <button
+                class="menu_trigger"
+                data-burger-menu="master_menu"
+                aria-label="Burger Menu"
+              >
+                <div class="bInner bmaster">
+                  <span class="start"></span>
+                  <span class="med"></span>
+                </div>
+                <div class="bInner bcopy">
+                  <span class="start"></span>
+                  <span class="med"></span>
+                </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

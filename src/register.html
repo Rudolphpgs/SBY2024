@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}} privatePage noMenu">
+    {{> loader}} {{> header}}
+    <main class="">
+      <section class="pageSection topMainOff" data-inView>
+        <div class="container limitedWD">
+          <div class="sectionTitle text-center">
+            <h2>
+              <span>Register</span>
+            </h2>
+          </div>
+          <div class="titleGreen fin_anim d1 text-center">
+            <span>Please enter your details to register</span>
+          </div>
+          <div class="form-v3 fin_anim d2 mTop4">
+            <form action="{{ menuLink lang 'home'}}">
+              <div class="input_box">
+                <div class="input-field full_">
+                  <label for="fname">Full Name</label>
+                  <div class="iconWrap">
+                    <input id="fname" type="text" class="" />
+                    <!-- <label class="error">Field required</label> -->
+                    <div class="iconBox">
+                      <svg width="20" height="20" viewBox="0 0 20 20">
+                        <g transform="translate(0.055 0.418)">
+                          <g transform="translate(0 -0.363)">
+                            <path
+                              d="M16.7,12.139a9.47,9.47,0,0,0-2.255-1.678,6.27,6.27,0,1,0-9.328,0,9.207,9.207,0,0,0-2.244,1.678A9.658,9.658,0,0,0,0,19.047v.515H19.562v-.515A9.686,9.686,0,0,0,16.7,12.139M9.781,1.03a5.241,5.241,0,0,1,3.449,9.184,5.323,5.323,0,0,1-5.282.947A4.864,4.864,0,0,1,6.332,10.2,5.241,5.241,0,0,1,9.781,1.03M1.04,18.532A8.609,8.609,0,0,1,3.6,12.87,8.381,8.381,0,0,1,5.91,11.212c.1.082.227.144.329.216s.309.216.474.309.185.082.268.134a6.25,6.25,0,0,0,2.8.69,6.172,6.172,0,0,0,2.811-.721c.082,0,.165-.072.247-.124s.329-.206.484-.309.227-.134.329-.216a8.752,8.752,0,0,1,4.87,7.331Z"
+                              transform="translate(0 0.328)"
+                              fill="currentcolor"
+                              stroke="currentcolor"
+                              stroke-width="1"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-field full_">
+                  <label for="emailid">Email</label>
+                  <div class="iconWrap">
+                    <input id="emailid" type="text" class="" />
+                    <!-- <label class="error">Field required</label> -->
+                    <div class="iconBox">
+                      <svg width="20" height="16" viewBox="0 0 20 16">
+                        <g>
+                          <path
+                            d="M2,16a1.93,1.93,0,0,1-1.413-.587A1.93,1.93,0,0,1,0,14V2A1.93,1.93,0,0,1,.587.587,1.93,1.93,0,0,1,2,0H18a1.93,1.93,0,0,1,1.413.587A1.93,1.93,0,0,1,20,2V14a2,2,0,0,1-2,2ZM18,4,10.525,8.675a1.072,1.072,0,0,1-.263.113.946.946,0,0,1-.524,0,1.072,1.072,0,0,1-.263-.113L2,4V14H18ZM10,7l8-5H2ZM2,4V4Z"
+                            fill="currentcolor"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-field full_">
+                  <label for="password"
+                    >Passcode
+                    <small>(Provided in the invite email)</small></label
+                  >
+                  <div class="iconWrap">
+                    <input id="password" type="password" class="" />
+                    <!-- <label class="error">Field required</label> -->
+                    <div class="iconBox">
+                      <svg
+                        width="17.201"
+                        height="21.587"
+                        viewBox="0 0 17.201 21.587"
+                      >
+                        <g transform="translate(0 0)">
+                          <g transform="translate(0 0)">
+                            <path
+                              d="M14.646,8.082v-1.9A6.047,6.047,0,1,0,2.555,5.91c0,.092,0,.183,0,.274v1.91A4.05,4.05,0,0,0,0,11.855v5.683a4.05,4.05,0,0,0,4.05,4.05h9.1a4.05,4.05,0,0,0,4.05-4.05v-5.7a4.05,4.05,0,0,0-2.555-3.76M8.6,2a4.181,4.181,0,0,1,4.178,4.184V7.8H4.421V6.184A4.181,4.181,0,0,1,8.6,2h0m6.733,15.54a2.181,2.181,0,0,1-2.181,2.181h-9.1a2.181,2.181,0,0,1-2.181-2.181v-5.7A2.181,2.181,0,0,1,4.047,9.661h9.1a2.181,2.181,0,0,1,2.181,2.181Z"
+                              transform="translate(0 0)"
+                              fill="currentcolor"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-field full_">
+                  <label for="password">Create Password</label>
+                  <div class="iconWrap">
+                    <input id="password" type="password" class="" />
+                    <!-- <label class="error">Field required</label> -->
+                    <div class="iconBox">
+                      <svg
+                        width="17.201"
+                        height="21.587"
+                        viewBox="0 0 17.201 21.587"
+                      >
+                        <g transform="translate(0 0)">
+                          <g transform="translate(0 0)">
+                            <path
+                              d="M14.646,8.082v-1.9A6.047,6.047,0,1,0,2.555,5.91c0,.092,0,.183,0,.274v1.91A4.05,4.05,0,0,0,0,11.855v5.683a4.05,4.05,0,0,0,4.05,4.05h9.1a4.05,4.05,0,0,0,4.05-4.05v-5.7a4.05,4.05,0,0,0-2.555-3.76M8.6,2a4.181,4.181,0,0,1,4.178,4.184V7.8H4.421V6.184A4.181,4.181,0,0,1,8.6,2h0m6.733,15.54a2.181,2.181,0,0,1-2.181,2.181h-9.1a2.181,2.181,0,0,1-2.181-2.181v-5.7A2.181,2.181,0,0,1,4.047,9.661h9.1a2.181,2.181,0,0,1,2.181,2.181Z"
+                              transform="translate(0 0)"
+                              fill="currentcolor"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-field full_">
+                  <label for="passwordre">Confirm Password </label>
+                  <div class="iconWrap">
+                    <input id="passwordre" type="password" class="" />
+                    <!-- <label class="error">Field required</label> -->
+                    <div class="iconBox">
+                      <svg
+                        width="17.201"
+                        height="21.587"
+                        viewBox="0 0 17.201 21.587"
+                      >
+                        <g transform="translate(0 0)">
+                          <g transform="translate(0 0)">
+                            <path
+                              d="M14.646,8.082v-1.9A6.047,6.047,0,1,0,2.555,5.91c0,.092,0,.183,0,.274v1.91A4.05,4.05,0,0,0,0,11.855v5.683a4.05,4.05,0,0,0,4.05,4.05h9.1a4.05,4.05,0,0,0,4.05-4.05v-5.7a4.05,4.05,0,0,0-2.555-3.76M8.6,2a4.181,4.181,0,0,1,4.178,4.184V7.8H4.421V6.184A4.181,4.181,0,0,1,8.6,2h0m6.733,15.54a2.181,2.181,0,0,1-2.181,2.181h-9.1a2.181,2.181,0,0,1-2.181-2.181v-5.7A2.181,2.181,0,0,1,4.047,9.661h9.1a2.181,2.181,0,0,1,2.181,2.181Z"
+                              transform="translate(0 0)"
+                              fill="currentcolor"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="input-field full_ mTop2">
+                  <button
+                    type="submit"
+                    class="sBtn justifyCenter round green lg_"
+                  >
+                    <span>Register</span>
+                    <div class="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28.794"
+                        height="15.056"
+                        viewBox="0 0 28.794 15.056"
+                      >
+                        <g transform="translate(-1593.5 -1647.472)">
+                          <g transform="translate(0 0.325)">
+                            <path
+                              d="M3257.692,792l7.175,7.175,7.174-7.175"
+                              transform="translate(822.413 4919.541) rotate(-90)"
+                              fill="none"
+                              stroke="currentcolor"
+                              stroke-width="1"
+                            />
+                            <line
+                              x1="28"
+                              transform="translate(1593.5 1654.5)"
+                              fill="none"
+                              stroke="currentcolor"
+                              stroke-width="1"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  </button>
+                  <div class="extraNav justifyCenter">
+                    <a href="{{ menuLink lang 'login'}}" class="link">
+                      <span>If you already have an account, just login.</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}} {{> scripts}}
+    <script type="module" src="/assets/js/innerpage.js"></script>
+  </body>
+</html>

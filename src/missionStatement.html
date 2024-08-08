@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}}">
+    {{> loader}} {{> header}}
+    <main>
+      <section class="pageSection topMainOff noPaddBottom" data-inView>
+        <div class="container">
+          <div class="gridWrap">
+            <div class="imgBox">
+              <picture>
+                <source
+                  srcset="./assets/images/missionStatementBanner.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./assets/images/missionStatementBanner.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/missionStatementBanner.jpg"
+                  loading="lazy"
+                  alt=""
+                  width="500"
+                  height="600"
+                />
+              </picture>
+            </div>
+            <div class="contentBox">
+              <div class="sectionTitle">
+                <h2>
+                  <span>Mission Statement</span>
+                </h2>
+              </div>
+
+              <div class="textBox fin_anim d1">
+                <p>
+                  Bringing the world together to address the Middle East’s most
+                  important challenges and opportunities
+                </p>
+                <p>
+                  The Sir Bani Yas Forum brings together diverse leaders of
+                  politics, thought, and business to explore how the Middle East
+                  can both navigate global pressures and affect global trends.
+                </p>
+                <p>
+                  During the annual nonattributable retreat, the Forum’s
+                  participants dedicate themselves to developing creative policy
+                  options for navigating the region’s most pressing challenges,
+                  and search for new opportunities to create a more prosperous
+                  future for all.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}} {{> scripts}}
+    <script type="module" src="/assets/js/innerpage.js"></script>
+  </body>
+</html>

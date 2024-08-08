@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}}">
+    {{> loader}} {{> header}}
+    <main>
+      <!-- <section class="innerBanner" data-inView>
+        <div class="container">
+          <div class="bg"></div>
+          <div class="titleBox">
+            <div class="lbox">
+              <h1>
+                <span>About</span>
+              </h1>
+              <div class="breadcrumb_wrap">
+                <ul>
+                  <li>
+                    <a href="{{ menuLink lang 'index'}}" class="link">
+                      <span>Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ menuLink lang 'about'}}" class="link">
+                      <span>About</span>
+                    </a>
+                  </li>
+                  <li class="current">
+                    <span>Vison and Mission</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="backButton">
+              <a href="#" class="link">
+                <svg width="25.239" height="22.44" viewBox="0 0 25.239 22.44">
+                  <path
+                    d="M-492.984,146.823c.407.608.783,1.141,1.129,1.694a1.437,1.437,0,0,1-.811,2.177,1.525,1.525,0,0,1-1.691-.579q-1.519-1.886-3.031-3.778c-.124-.155-.253-.306-.369-.466a.713.713,0,0,1,0-.933c1.159-1.457,2.317-2.916,3.5-4.356a1.507,1.507,0,0,1,2.066-.235,1.455,1.455,0,0,1,.293,2.017c-.335.514-.68,1.021-1.02,1.532,0,.006,0,.018.007.075h.33q5.193,0,10.386,0a9.039,9.039,0,0,1,6.63,2.6,8.833,8.833,0,0,1,2.476,9.174,8.9,8.9,0,0,1-6.88,6.494,8.569,8.569,0,0,1-1.766.221c-1.11.036-2.222.022-3.333.013a1.375,1.375,0,0,1-1.311-.819,1.35,1.35,0,0,1,.145-1.458,1.36,1.36,0,0,1,1.153-.57c1.022,0,2.044.008,3.065,0a6.41,6.41,0,0,0,6.315-5.108,6.4,6.4,0,0,0-5.793-7.66q-.445-.029-.892-.03-5.089,0-10.178,0Z"
+                    transform="translate(497.93 -140.043)"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="pageSection topMainOff" data-inView>
+        <div class="container">
+          <div class="gridWrap">
+            <div class="imgBox">
+              <picture>
+                <source
+                  srcset="./assets/images/hostBanner.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./assets/images/hostBanner.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/hostBanner.jpg"
+                  loading="lazy"
+                  alt=""
+                  width="500"
+                  height="800"
+                />
+              </picture>
+            </div>
+            <div class="contentBox">
+              <div class="sectionTitle">
+                <h2>
+                  <span>Host</span>
+                </h2>
+              </div>
+
+              <div class="textBox fin_anim d1">
+                <p>
+                  The 14th annual Sir Bani Yas Forum is hosted by the UAE
+                  Ministry of Foreign Affairs, with the Atlantic Council serving
+                  as the Ministry’s substantive adviser for the Forum.
+                </p>
+              </div>
+
+              <div class="hostGrid">
+                <div class="hItem fin_anim d2">
+                  <div class="imgBox">
+                    <picture>
+                      <img
+                        src="./assets/images/hostLogo1.svg"
+                        loading="lazy"
+                        alt=""
+                        width="300"
+                        height="200"
+                      />
+                    </picture>
+                  </div>
+                  <div class="textBox">
+                    <p>
+                      Since its founding, the United Arab Emirates has embraced
+                      the principles of peaceful co-existence, mutual respect,
+                      and non-interference in other countries’ internal affairs
+                      as cornerstones of the country’s foreign policy.
+                    </p>
+                  </div>
+                </div>
+                <div class="hItem fin_anim d3">
+                  <div class="imgBox">
+                    <picture>
+                      <img
+                        src="./assets/images/hostLogo2.svg"
+                        loading="lazy"
+                        alt=""
+                        width="300"
+                        height="200"
+                      />
+                    </picture>
+                  </div>
+                  <div class="textBox">
+                    <p>
+                      Over the years the Ministry has partnered with various
+                      think tanks offering substantive guidance to support the
+                      Forum. The Atlantic Council provides the Sir Bani Yas
+                      Forum substantive advice, driven by its central mission of
+                      “shaping the global future together.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> footer}} {{> scripts}}
+    <script type="module" src="/assets/js/innerpage.js"></script>
+  </body>
+</html>

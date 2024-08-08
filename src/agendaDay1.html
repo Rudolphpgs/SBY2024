@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+  <head>
+    {{> metadata }} {{> styles }}
+  </head>
+  <body class="{{bodyClass}} privatePage agendaPage ">
+    {{> loader}} {{> headerDashboard}}
+    <main>
+      <section class="pageSection topMainOff noPaddBottom" data-inView>
+        <div class="agendaTitle">
+          <div class="container">
+            <div class="sectionTitle text-center">
+              <h2>
+                <span>Friday 8<sup>th</sup> December</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="agendaWrap">
+            <div class="agItem">
+              <div class="titleBox"></div>
+              <div class="contentBox">
+                <div class="session">Guest Arrivals</div>
+              </div>
+            </div>
+            <div class="agItem">
+              <div class="titleBox">
+                <span>15:00 – 16:15 GST </span>
+                <small>75 minutes</small>
+              </div>
+              <div class="contentBox">
+                <a href="#popup" class="session" data-fancybox-modal
+                  >SESSION 1
+                  <small> (Click for more information)</small>
+                </a>
+
+                <div class="textBox textColorBlack">
+                  <p>In the Balance: Strategic Shifts in the Global Order</p>
+                </div>
+              </div>
+            </div>
+            <div class="agItem">
+              <div class="titleBox"></div>
+              <div class="contentBox">
+                <div class="session">COFFEE BREAK</div>
+              </div>
+            </div>
+            <div class="agItem">
+              <div class="titleBox">
+                <span>16:45 – 18:00 GST </span>
+                <small>75 minutes</small>
+              </div>
+              <div class="contentBox">
+                <a href="#popup" class="session" data-fancybox-modal
+                  >SESSION 2
+                  <small> (Click for more information)</small>
+                </a>
+                <div class="textBox textColorBlack">
+                  <p>
+                    Regional Transformation? How to Build on Prospects for
+                    De-Escalation in the Middle East
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="agItem">
+              <div class="titleBox"></div>
+              <div class="contentBox">
+                <div class="session">COFFEE BREAK</div>
+              </div>
+            </div>
+            <div class="agItem">
+              <div class="titleBox">
+                <span>19:30 – 23:00 GST </span>
+              </div>
+              <div class="contentBox">
+                <div class="textBox textColorBlack">
+                  <p>
+                    Emirati Welcome Dinner <br />
+                    Jumeirah Poolside
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="agendaNav">
+            <a href="{{ menuLink lang 'agendaDay2'}}" class="link green">
+              <span>Saturday 9<sup>th</sup> December</span>
+              <div class="iconBox">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="76.655"
+                  height="39.507"
+                  viewBox="0 0 76.655 39.507"
+                >
+                  <g transform="translate(0 0.354)">
+                    <path
+                      d="M0,0,19.4,19.4,38.8,0"
+                      transform="translate(56.548 38.8) rotate(-90)"
+                      fill="none"
+                      stroke="currentcolor"
+                      stroke-width="2"
+                    />
+                    <line
+                      x1="75.711"
+                      transform="translate(0 18.928)"
+                      fill="none"
+                      stroke="currentcolor"
+                      stroke-width="2"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </a>
+            <a href="{{ menuLink lang 'agendaDay3'}}" class="link greenLight">
+              <span>Sunday 10<sup>th</sup> December</span>
+              <div class="iconBox">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="76.655"
+                  height="39.507"
+                  viewBox="0 0 76.655 39.507"
+                >
+                  <g transform="translate(0 0.354)">
+                    <path
+                      d="M0,0,19.4,19.4,38.8,0"
+                      transform="translate(56.548 38.8) rotate(-90)"
+                      fill="none"
+                      stroke="currentcolor"
+                      stroke-width="2"
+                    />
+                    <line
+                      x1="75.711"
+                      transform="translate(0 18.928)"
+                      fill="none"
+                      stroke="currentcolor"
+                      stroke-width="2"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> popUp}} {{> footerDashboard}} {{> scripts}}
+    <script type="module" src="/assets/js/innerpage.js"></script>
+  </body>
+</html>
